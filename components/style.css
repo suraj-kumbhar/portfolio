@@ -6,7 +6,12 @@
     box-sizing: border-box;
 }
 
-body{
-    
+.container{
+    padding-left: 1 rem;
+    padding-right: 1 rem;
+}
 
+.container-center{
+    max-width: 600px;
+    margin: auto;
 }
