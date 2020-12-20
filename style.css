@@ -1,51 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 
-:root{
-    --primary-color: #818CF8;
-    --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+:root {
+    --primary-color: #818cf8;
+    --dark-gray: #6b7280;
+    --off-white: #f3f4f6;
 }
 
-body{
+body {
     font-family: 'Piazzolla', serif;
     margin: 0px;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
-
 /* container */
 
-.container{
+.container {
     padding: 0rem 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
-
 /* links */
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
@@ -53,18 +51,18 @@ hr{
 
 /* lists */
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
 /* navigation */
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
@@ -72,62 +70,64 @@ hr{
     border-bottom-right-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bolder;
     font-size: 1.1rem;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
 /* header */
 
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
     text-align: center;
 }
 
-.inverted{
+.inverted {
     color: var(--primary-color);
 }
 
 /* section */
 
-.section{
+.section {
     padding: 2rem;
+    max-width: 700px;
+    margin: auto;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
 
 /* footer */
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -136,10 +136,15 @@ hr{
     border-top-right-radius: 1rem;
 }
 
-.footer ul{
-    padding-inline-start: 0px ;
+.footer ul {
+    padding-inline-start: 0px;
 }
 
-.footer .link{
+.footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
